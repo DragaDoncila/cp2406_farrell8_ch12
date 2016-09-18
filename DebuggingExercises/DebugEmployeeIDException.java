@@ -2,7 +2,12 @@ public class DebugEmployeeIDException extends Exception
 {
    public DebugEmployeeIDException()
    {
-      super(s);
+
+      super();
+   }
+
+   public DebugEmployeeIDException(String message){
+       super(message);
    }
 }
 
